@@ -1,0 +1,2 @@
+language: bash
+fprocess: bash handler.bash
