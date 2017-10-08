@@ -1,0 +1,9 @@
+provider:
+  name: faas
+  gateway: http://localhost:8080
+
+functions:
+  gif-temp:
+    lang: bash
+    handler: ./gif-temp
+    image: gif-temp
