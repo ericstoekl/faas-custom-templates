@@ -1,0 +1,2 @@
+language: rust
+fprocess: /root/target/release/base-rust

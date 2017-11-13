@@ -1,0 +1,10 @@
+[package]
+name = "base-rust"
+version = "0.1.0"
+authors = ["OpenFaas User"]
+
+[[bin]]
+name = "base-rust"
+path = "./main.rs"
+
+[dependencies]
