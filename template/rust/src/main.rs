@@ -1,6 +1,6 @@
 use std::io;
 
-mod handler
+mod handler;
 
 fn main() {
     println!("Hello from rust!");
