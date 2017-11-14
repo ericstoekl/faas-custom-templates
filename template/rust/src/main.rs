@@ -1,5 +1,7 @@
 use std::io;
 
+mod handler
+
 fn main() {
     println!("Hello from rust!");
 
@@ -8,6 +10,6 @@ fn main() {
     io::stdin().read_line(&mut user_input)
         .expect("Failed to read line");
 
-    println!("You passed in: {}", user_input);
+    handler::handler(user_input);
 }
 
