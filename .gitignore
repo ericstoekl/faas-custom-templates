@@ -1,3 +1,4 @@
 build
 template/*
 !template/bash
+!template/rust
