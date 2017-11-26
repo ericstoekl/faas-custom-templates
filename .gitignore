@@ -2,3 +2,4 @@ build
 template/*
 !template/bash
 !template/rust
+!template/kotlin
