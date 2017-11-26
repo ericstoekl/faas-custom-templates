@@ -1,6 +1,5 @@
 package handler.main
 
-fun handler() {
-    println("Hello, handler!")
+fun handler(str: String) {
+    println("Hello from handler! got from stdin: " + str)
 }
-
